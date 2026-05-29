@@ -1,0 +1,14 @@
+# Pasta de referência de padrões (vendorizada, não faz parte da entrega)
+/felixo-standards
+
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Checkpoints de notebook
+.ipynb_checkpoints/
+/.claude
