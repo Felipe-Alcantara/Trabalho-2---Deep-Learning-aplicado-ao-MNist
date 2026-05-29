@@ -1,0 +1,4 @@
+Arquitetura     Parâmetros  Acurácia  Erros
+LeNet            1,256,080    99.05%     95
+CNN_Moderna        872,426    99.44%     56
+MLP                535,818    98.29%    171

@@ -46,8 +46,13 @@
 
 ## 🧪 TESTES IMPORTANTES
 
-[2026-05-29] Verificação manual: execução completa de `treinar_lenet.py`, `treinar_cnn_moderna.py`, `treinar_mlp.py` e `comparar.py` no `.venv`. Resultados em `solucoes/resultados/` e log em `solucoes/treino.log`.
-<!-- Números finais consolidados no README, seção "Resultados e Conclusão". -->
+[2026-05-29] ✅ Execução real no **Google Colab (GPU)**, 10 épocas cada — resultados oficiais da entrega:
+  - CNN Moderna: **99,44%** (56 erros) — melhor.
+  - LeNet: **99,05%** (95 erros).
+  - MLP: **98,29%** (171 erros).
+  Artefatos em `resultados/` (matrizes de confusão, curva de acurácia, resumo).
+[2026-05-29] ✅ Smoke test local (1 época) do `4_Comparacao.ipynb` rodou de ponta a ponta (exit 0), confirmando que o notebook executa sem erro de código.
+[2026-05-29] OBSERVAÇÃO: a CNN Moderna fica ~11% na época 1 (BatchNorm ainda instável) e dispara a partir da época 2-3 — comportamento esperado, não é bug.
 
 ---
 

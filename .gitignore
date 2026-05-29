@@ -11,5 +11,11 @@ __pycache__/
 
 # Checkpoints de notebook
 .ipynb_checkpoints/
+
+# Logs de treino e resultados intermediários dos scripts (transitórios)
+solucoes/*.log
+solucoes/resultados/
+
+# Ferramentas locais do editor/CLI
 /.claude
-COMO_RODAR_NO_COLAB.md
+/.sixth
