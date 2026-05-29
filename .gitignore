@@ -12,3 +12,4 @@ __pycache__/
 # Checkpoints de notebook
 .ipynb_checkpoints/
 /.claude
+COMO_RODAR_NO_COLAB.md

@@ -12,8 +12,8 @@ import os
 DIR = os.path.dirname(__file__)
 RAIZ = os.path.dirname(DIR)
 
-# Caminho do repositório no GitHub (usuário/repo). Ajuste após criar o repo da equipe.
-REPO_GITHUB = "SUA-EQUIPE/Trabalho-2---Deep-Learning-aplicado-ao-MNist"
+# Caminho do repositório no GitHub (usuário/repo), usado nos badges "Abrir no Colab".
+REPO_GITHUB = "Felipe-Alcantara/Trabalho-2---Deep-Learning-aplicado-ao-MNist"
 
 
 def md(texto):
@@ -40,7 +40,7 @@ def notebook(cells):
 SETUP_COLAB = """\
 # Setup — funciona no Google Colab (recomendado, com GPU) ou local.
 # No Colab: Ambiente de execução > Alterar tipo > Acelerador de hardware: GPU.
-import importlib, subprocess, sys
+import importlib.util, subprocess, sys
 
 for pacote in ['seaborn', 'tensorflow']:
     if importlib.util.find_spec(pacote) is None:
