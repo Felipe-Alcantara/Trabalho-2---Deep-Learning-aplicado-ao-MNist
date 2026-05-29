@@ -10,7 +10,7 @@
 
 **Reconhecimento de dígitos manuscritos do MNIST com três arquiteturas de redes neurais profundas — LeNet, CNN Moderna e MLP — comparadas pelas suas matrizes de confusão.**
 
-[🚀 Como Usar](#-como-usar) • [📊 Resultados](#-resultados-e-conclusão) • [🧩 Arquiteturas](#-as-três-arquiteturas) • [☁️ Rodar no Colab](COMO_RODAR_NO_COLAB.md)
+[🚀 Como Usar](#-como-usar) • [📊 Resultados](#-resultados-e-conclusão) • [🧩 Arquiteturas](#-as-três-arquiteturas)
 
 </div>
 
@@ -64,9 +64,7 @@ Trabalho-2---Deep-Learning-aplicado-ao-MNist/
 │
 ├── 📁 deepLearning-main/      # Exemplo LeNet de referência
 │
-├── COMO_RODAR_NO_COLAB.md     # Guia de execução no Colab (GPU)
 ├── requirements.txt
-├── IA.md                      # Contexto técnico do projeto
 └── README.md                  # Este arquivo
 ```
 
@@ -127,7 +125,7 @@ Rede totalmente conectada (sem convoluções), usada como **linha de base**.
 
 ### Opção 1: Google Colab com GPU (Recomendado!) ☁️
 
-A forma mais rápida — treina as três redes em poucos minutos. Veja o [guia completo](COMO_RODAR_NO_COLAB.md).
+A forma mais rápida — treina as três redes em poucos minutos.
 
 [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Felipe-Alcantara/Trabalho-2---Deep-Learning-aplicado-ao-MNist/blob/main/4_Comparacao.ipynb)
 
@@ -209,7 +207,7 @@ Este projeto está sob a licença MIT — veja o arquivo [`LICENSE`](LICENSE).
 ## 👤 Autores
 
 Felipe Alcantara Martins
-Iasmin Oliveira Laje
+Iasmin Oliveira
 
 - GitHub: [@Felipe-Alcantara](https://github.com/Felipe-Alcantara)
 - Arquitetura base (LeNet): [marceloarantes19/deepLearning](https://github.com/marceloarantes19/deepLearning)
